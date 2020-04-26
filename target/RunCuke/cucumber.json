@@ -1,0 +1,540 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28345310900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Bank manager should add customer successfully",
+        "description": "",
+        "id": "bank-manager-feature;bank-manager-should-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1336105100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 294144000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankManagerSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271648700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on bank manager login tab",
+            "match": {
+              "location": "BankManagerSteps.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 635416400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on add customer tab",
+            "match": {
+              "location": "BankManagerSteps.iClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 826545900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter first name \"Tiger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tiger",
+                  "offset": 20
+                }
+              ],
+              "location": "BankManagerSteps.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566368800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter last name \"Foster\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Foster",
+                  "offset": 19
+                }
+              ],
+              "location": "BankManagerSteps.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 914519600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter post code \"HA2 6JT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HA2 6JT",
+                  "offset": 19
+                }
+              ],
+              "location": "BankManagerSteps.iEnterPostCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229959800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on add customer button",
+            "match": {
+              "location": "BankManagerSteps.iClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37875200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see customer added successfully message",
+            "match": {
+              "location": "BankManagerSteps.iShouldSeeCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17046520900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Bank manager should delete customer successfully",
+        "description": "",
+        "id": "bank-manager-feature;bank-manager-should-delete-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1003999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11407400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankManagerSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2031220800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on bank manager login tab",
+            "match": {
+              "location": "BankManagerSteps.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229763900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on customers tab",
+            "match": {
+              "location": "BankManagerSteps.iClickOnCustomersTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626387200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I search customer by name \"Albus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Albus",
+                  "offset": 27
+                }
+              ],
+              "location": "BankManagerSteps.iSearchCustomerByName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10317257800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on delete button",
+            "match": {
+              "location": "BankManagerSteps.iClickOnDeleteButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Bank manager feature",
+    "description": "As a user I want to check bank manager functionality on xyz bank website",
+    "id": "bank-manager-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/bank/resources/featurefile/bankmanager.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BankManager"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18102704000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Customer should login and logout successfully",
+        "description": "",
+        "id": "customer-page-feature;customer-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 926937600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4948000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankManagerSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1170655700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on customer login tab",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169826700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select customer name \"Albus Dumbledore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Albus Dumbledore",
+                  "offset": 24
+                }
+              ],
+              "location": "CustomerPageSteps.iSelectCustomerName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220524400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301192900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify logout button is displayed",
+            "match": {
+              "location": "CustomerPageSteps.iVerifyLogoutButtonIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10140122500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on logout button",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103165100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see your name lable is displayed",
+            "match": {
+              "location": "CustomerPageSteps.iShouldSeeYourNameLableIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20727957700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Customer should deposit money successfully",
+        "description": "",
+        "id": "customer-page-feature;customer-should-deposit-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 874139300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3242100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankManagerSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185707900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on customer login tab",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1900287500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select customer name \"Albus Dumbledore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Albus Dumbledore",
+                  "offset": 24
+                }
+              ],
+              "location": "CustomerPageSteps.iSelectCustomerName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 655785300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348852900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on deposit button",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377263000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter amount \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 16
+                }
+              ],
+              "location": "CustomerPageSteps.iEnterAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154321000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on deposit wihtdraw button",
+            "match": {
+              "location": "CustomerPageSteps.iClickOnDepositWihtdrawButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113867300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verifty depsit successful message displayed on the screen",
+            "match": {
+              "location": "CustomerPageSteps.iVeriftyDepsitSuccessfulMessageDisplayedOnTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer page feature",
+    "description": "As a user I customer page functionality on xyz bank website",
+    "id": "customer-page-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/bank/resources/featurefile/customerpage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Customer"
+      }
+    ]
+  }
+]
